@@ -65,11 +65,12 @@ public class IntroTo2DArrays{
     System.out.println("\n\n\nHomework assignment");
     //add up the values of the array using for each loops...
     {
+      int sum2 = 0;
       for(int[] row: ray)
       {
-        for(int num: row)
+        for(int col: row)
         {
-          sum += num;
+          sum2 += col;
         }
       }
 
